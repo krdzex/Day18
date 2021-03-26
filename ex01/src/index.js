@@ -9,7 +9,7 @@ function* multiplication(x) {
 }
 let num = multiplication(3);
 
-for (let j = 0; j < 3; i++) {
+for (let j = 0; j < 3; j++) {
     console.log(num.next().value);
 }
 // Only change code above this line
