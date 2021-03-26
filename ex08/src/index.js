@@ -5,8 +5,6 @@ let unionSet = new Set([...one, ...two]);
 let intersectionSet = new Set([...one].filter(x => two.has(x)));
 let differenceSet = new Set([...one].filter(x => !two.has(x)));
 
-console.log(one);
-console.log(two);
 console.log(unionSet);
 console.log(intersectionSet);
 console.log(differenceSet);
