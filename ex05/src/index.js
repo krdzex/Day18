@@ -4,7 +4,7 @@ let shoppingList = new Map([
     ['Pineapple', 5],
     ['Pear', 2],
     ['Carrot', 10],
-    ['Apple', 1.5],
+    ['Apple', 1.5]
 ]);
 
 
