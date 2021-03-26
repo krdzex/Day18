@@ -27,8 +27,7 @@ for (let i = 0; i < arrValue.length; i++) {
 }
 
 for (let [key, value] of shoppingList.entries()) {
-    console.log(...shoppingList);
-
+    console.log([key,value])
 }
 
 
