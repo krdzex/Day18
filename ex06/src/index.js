@@ -8,4 +8,4 @@ rockStar.set("singer", "Mick Jagger");
 let newRock = new Map([...rockStar].filter(([key]) => { return key[0] > "a"; }));
 console.log(newRock);
 // Only change code above this line
-module.exprts = { rockStar, newRock };
+module.exports = { rockStar, newRock };
