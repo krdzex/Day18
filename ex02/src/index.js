@@ -6,14 +6,14 @@ function* myGenerator() {
 }
 function* insideGenerator1() {
     for (let i = 1; i <= 5; i++) {
-        var x;
+        let x;
         x = i;
         yield x;
     }
 }
 function* insideGenerator2() {
     for (let i = 10; i <= 15; i++) {
-        var x;
+        let x;
         x = i;
         yield x;
 
@@ -21,7 +21,7 @@ function* insideGenerator2() {
 }
 function* insideGenerator3() {
     for (let i = 6; i <= 9; i++) {
-        var x;
+        let x;
         x = i;
         yield x;
     }
