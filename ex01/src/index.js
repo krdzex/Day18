@@ -7,7 +7,7 @@ function* multiplication(x) {
         yield x;
     }
 }
-var num = multiplication(3);
+let num = multiplication(3);
 
 for (let j = 0; j < 3; i++) {
     console.log(num.next().value);
