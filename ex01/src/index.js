@@ -1,7 +1,7 @@
 let myArr = [];
 // Only change code below this line
 function* multiplication(x) {
-    for (var i = 0; i < x; i++) {
+    for (let i = 0; i < x; i++) {
         x *= 2;
         myArr.push(x);
         yield x;
@@ -9,7 +9,7 @@ function* multiplication(x) {
 }
 var num = multiplication(3);
 
-for (var j = 0; j < 3; i++) {
+for (let j = 0; j < 3; i++) {
     console.log(num.next().value);
 }
 // Only change code above this line
